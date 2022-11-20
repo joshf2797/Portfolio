@@ -6,24 +6,29 @@ header {
     background-color: rgba(100, 53, 145, 0.679);
     color: azure;
 }
+
 .name {
     width: 20%;
     padding-left: 15px;
 }
+
 .jump {
     color: azure;
     text-decoration: none;
     margin: 10px;
     cursor: pointer;
 }
+
 .jump:hover {
     color: lavender;
     font-size: 125%;
 }
+
 .jump:active {
     color: azure;
     font-size: 100%;
 }
+
 nav {
     display: flex;
     width: 100%;
@@ -31,6 +36,7 @@ nav {
     margin-right: 10px;
     justify-content: end;
 }
+
 .hero {
     display: flex;
     height: 200px;
@@ -38,19 +44,12 @@ nav {
     background-position: center;
     background-size: cover;    
 }
+
 .phrase {
     font-size: 200%;
     margin: auto;
     font-weight: 600;
     color: azure;
-}
-.aboutme {
-    display: flex;
-    flex-basis: auto;
-    max-height: 250px;
-}
-.contactme {
-    display: flex;
 }
 
 .github {
@@ -68,12 +67,15 @@ nav {
     border-radius: 15px;
     opacity: 70%;
 }
+
 .github:hover, .img {
     opacity: 100%;
 }
+
 .github:active, .img{
     opacity: 70%;
 }
+
 .gmail {
     font-size: 150%;
     color: black;
@@ -89,12 +91,15 @@ nav {
     border-radius: 15px;
     opacity: 70%;
 }
+
 .gmail:hover, .img {
     opacity: 100%;
 }
+
 .gmail:active, .img{
     opacity: 70%;
 }
+
 body {
     background-color: rgba(128, 128, 128, 0.405);
     margin: 0;
@@ -102,7 +107,7 @@ body {
     height: 1600px;
 }
 
-.aboutmee {
+.aboutme {
     display: grid;
     grid-template-columns: 20% 50% 25% ;
     margin-top: 20px;
@@ -111,6 +116,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
 }
+
 .mywork {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -120,6 +126,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
 }
+
 .contact {
     display: grid;
     grid-template-columns: 20% 1fr 1fr 1fr;
@@ -137,12 +144,14 @@ body {
     margin: auto;
     border-radius: 20px;
 }
+
 .aboutmeinfo {
     font-size: 150%;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 15px;
     color: black;
 }
+
 .title {
     font-size: 200%;
     text-align: end;
@@ -155,10 +164,12 @@ body {
     border-color: rgba(100, 53, 145, 0.679);
     border-radius: 0 10px 10px 0;
 }
+
 .img {
     height: 300px;
     border-radius: 30px;
 }
+
 .fp1 {
     height: 300px;
     width: 300px;
@@ -170,13 +181,16 @@ body {
     opacity: 75%;
     color: white;
 }
+
 .fp1:hover {
     cursor: pointer;
     opacity: 100%;
 }
+
 .fp1:active {
     opacity: 70%;
 }
+
 .fp2 {
     height: 300px;
     width: 310px;
@@ -188,13 +202,16 @@ body {
     opacity: 75%;
     color: white;
 }
+
 .fp2:hover {
     cursor: pointer;
     opacity: 100%;
 }
+
 .fp2:active {
     opacity: 70%;
 }
+
 .fp3 {
     height: 300px;
     width: 310px;
@@ -206,10 +223,12 @@ body {
     opacity: 75%;
     color: white;
 }
+
 .fp3:hover {
     cursor: pointer;
     opacity: 100%;
 }
+
 .fp3:active {
     opacity: 70%;
 }
