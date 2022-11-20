@@ -6,20 +6,23 @@ header {
     background-color: rgba(100, 53, 145, 0.679);
     color: azure;
 }
-h1 {
-    margin: auto;
-    padding-left: 25px;
+.name {
     width: 20%;
+    padding-left: 15px;
 }
-a {
+.jump {
     color: azure;
     text-decoration: none;
     margin: 10px;
     cursor: pointer;
 }
-a:hover {
+.jump:hover {
     color: lavender;
     font-size: 125%;
+}
+.jump:active {
+    color: azure;
+    font-size: 100%;
 }
 nav {
     display: flex;
@@ -32,7 +35,8 @@ nav {
     display: flex;
     height: 200px;
     background-image: url(https://media.tacdn.com/media/attractions-content--1x-1/0b/dd/a8/ce.jpg);
-    background-position:center;
+    background-position: center;
+    background-size: cover;    
 }
 .phrase {
     font-size: 200%;
@@ -40,7 +44,170 @@ nav {
     font-weight: 600;
     color: azure;
 }
+.aboutme {
+    display: flex;
+    flex-basis: auto;
+    max-height: 250px;
+}
+.contactme {
+    display: flex;
+}
+
+.github {
+    font-size: 150%;
+    color: azure;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    height: 150px;
+    width: 150px;
+    background-image: url(https://aiexpress.io/wp-content/uploads/2022/01/TOP-10-GitHub-Repositories-for-Data-Science.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    opacity: 70%;
+}
+.github:hover, .img {
+    opacity: 100%;
+}
+.github:active, .img{
+    opacity: 70%;
+}
+.gmail {
+    font-size: 150%;
+    color: azure;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    height: 150px;
+    width: 150px;
+    background-image: url(https://m.media-amazon.com/images/I/31kLTnDHGeL.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    opacity: 70%;
+}
+.gmail:hover, .img {
+    opacity: 100%;
+}
+.gmail:active, .img{
+    opacity: 70%;
+}
 body {
     background-color: rgba(128, 128, 128, 0.405);
     margin: 0;
+    box-sizing: border-box;
+    height: 1600px;
+}
+
+.aboutmee {
+    display: grid;
+    grid-template-columns: 20% 50% 25% ;
+    margin-top: 20px;
+    padding: 20px;
+    height: 225px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+.mywork {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 70px;
+    padding: 20px;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+.contact {
+    display: grid;
+    grid-template-columns: 20% 1fr 1fr 1fr;
+    width: 85%;
+    margin-top: 70px;
+    padding: 20px;
+    height: 225px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+.cow {
+    float: left;
+    max-height: 200px;
+    margin: auto;
+    border-radius: 20px;
+}
+.aboutmeinfo {
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+    color: black;
+}
+.title {
+    font-size: 200%;
+    text-align: end;
+    padding-right: 15px;
+    width: 275px;
+    color: black;
+    margin-top: 15px;
+    border-style: solid;
+    border-width: 0 4px 0 0;
+    border-color: rgba(100, 53, 145, 0.679);
+    border-radius: 0 10px 10px 0;
+}
+.img {
+    height: 300px;
+    border-radius: 30px;
+}
+.fp1 {
+    height: 300px;
+    width: 300px;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/603fd29b6e08d91bcd89517d/1614795643086-ROL5JCHI0SH4D0S4XD6T/TFP+logo+-+black.png?format=1500w);
+    background-position: center;
+    background-size: cover;
+    border: none;
+    border-radius: 155px;
+    opacity: 75%;
+    color: white;
+}
+.fp1:hover {
+    cursor: pointer;
+    opacity: 100%;
+}
+.fp1:active {
+    opacity: 70%;
+}
+.fp2 {
+    height: 300px;
+    width: 310px;
+    background-image: url(https://img.freepik.com/free-vector/neon-style-coming-soon-background_1017-33735.jpg?w=740&t=st=1668961802~exp=1668962402~hmac=10e7cd2f99582ba3c5b11fead4b960f4681b94298c75983c64e71842a1ba114f);
+    background-position: center;
+    background-size: cover;
+    border: none;
+    border-radius: 50px;
+    opacity: 75%;
+    color: white;
+}
+.fp2:hover {
+    cursor: pointer;
+    opacity: 100%;
+}
+.fp2:active {
+    opacity: 70%;
+}
+.fp3 {
+    height: 300px;
+    width: 310px;
+    background-image: url(https://previews.123rf.com/images/captainvector/captainvector1703/captainvector170300144/73614406-upcoming-new-project-design.jpg);
+    background-position: center;
+    background-size: cover;
+    border: none;
+    border-radius: 50px;
+    opacity: 75%;
+    color: white;
+}
+.fp3:hover {
+    cursor: pointer;
+    opacity: 100%;
+}
+.fp3:active {
+    opacity: 70%;
 }
