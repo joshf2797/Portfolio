@@ -177,11 +177,11 @@ nav {
     opacity: 70%;
 }
 
-.github:hover, .img {
+.github:hover, {
     opacity: 100%;
 }
 
-.github:active, .img{
+.github:active, {
     opacity: 70%;
 }
 
@@ -197,11 +197,11 @@ nav {
     opacity: 70%;
 }
 
-.gmail:hover, .img {
+.gmail:hover, {
     opacity: 100%;
 }
 
-.gmail:active, .img{
+.gmail:active, {
     opacity: 70%;
 }
 
@@ -217,11 +217,11 @@ nav {
     opacity: 70%;
 }
 
-.insta:hover, .img {
+.insta:hover, {
     opacity: 100%;
 }
 
-.insta:active, .img{
+.insta:active, {
     opacity: 70%;
 }
 
