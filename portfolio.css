@@ -86,7 +86,7 @@ nav {
     position: relative;
     justify-content: space-between;
 }
-
+/* not sure how to makes move down undernreath eachother when the screen gets smaller :(*/
 .fp1 {
     flex: 1;
     height: 400px;
