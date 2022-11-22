@@ -1,271 +1,268 @@
 :root {
---purple: rgba(100, 53, 145, 0.679);
---black: rgba(0, 0, 0);
---white: rgb(255, 255, 255);
---font: Arial, Helvetica, sans-serif;
-}
+    --purple: rgba(100, 53, 145, 0.679);
+    --black: rgba(0, 0, 0);
+    --white: rgb(255, 255, 255);
+    --font: Arial, Helvetica, sans-serif;
+    }
+    
+    header {
+        display: flex;
+        flex-direction: row;
+        height: 100px;
+        margin: 0;
+        background-color: var(--purple) ;
+        color: var(--white);
+        font-family: var(--font);
+    }
+    
+    body {
+        margin: 0;
+    }
+    
+    .name {
+        width: 20%;
+        padding-left: 15px;
+    }
+    
+    .jump {
+        color: var(--white);
+        text-decoration: none;
+        margin: 10px;
+        cursor: pointer;
+    }
+    
+    .jump:hover {
+        color: lavender;
+        font-size: 125%;
+    }
+    
+    .jump:active {
+        color: var(--white);
+        font-size: 100%;
+    }
+    
+    nav {
+        display: flex;
+        width: 100%;
+        margin-top: auto;
+        margin-right: 10px;
+        justify-content: end;
+        font-family: var(--font);
+    }
+    
+    .hero {
+        display: flex;
+        height: 200px;
+        background-image: url(https://media.tacdn.com/media/attractions-content--1x-1/0b/dd/a8/ce.jpg);
+        background-position: center;
+        background-size: cover;    
+    }
+    
+    .phrase {
+        font-size: 200%;
+        font-family: var(--font);
+        margin: auto;
+        font-weight: 600;
+        color: var(--white);
+    }
+    
+    .content {
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        margin: auto;
+        margin-top: 75px;
+        font-family: var(--font);
+    }
 
-header {
-    display: flex;
-    flex-direction: row;
-    height: 100px;
-    margin: 0;
-    background-color: var(--purple) ;
-    color: var(--white);
-    font-family: var(--font);
-}
+    .mywork, .aboutme, .contact{
+        background-color: rgba(128, 128, 128, 0.405);
+        border-radius: 20px;
+        padding: 20px;
+    }
 
-body {
-    background-color: rgba(128, 128, 128, 0.405);
-    margin: 0;
-}
+    .mywork {
+        margin-top: 75px;
+    }
 
-.name {
-    width: 20%;
-    padding-left: 15px;
-}
+    .fp1 {
+        height: 400px;
+        width: 400px;
+        margin: 30px;
+        border: none;
+        border-radius: 200px;
+        opacity: 75%;
+        color: var(--white);
+    }
+    
+    .fp1:hover {
+        cursor: pointer;
+        opacity: 100%;
+        animation: rotation 10s infinite linear;
+    }
+    
+    @keyframes rotation {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(359deg);
+      }
+    }
+    
+    .fp1:active {
+        opacity: 70%;
+    }
+    
+    .fp2 {
+        height: 400px;
+        width: 400px;
+        margin: 30px;
+        border: none;
+        border-radius: 50px;
+        opacity: 75%;
+        color: var(--white);
+    }
+    
+    .fp2:hover {
+        cursor: pointer;
+        opacity: 100%;
+    }
+    
+    .fp2:active {
+        opacity: 70%;
+    }
+    
+    .fp3 {
+        margin: 30px;
+        width: 400px;
+        height: 400px;
+        border: none;
+        border-radius: 50px;
+        opacity: 75%;
+        color: var(--white);
+    }
+    
+    .fp3:hover {
+        cursor: pointer;
+        opacity: 100%;
+    }
+    
+    .fp3:active {
+        opacity: 70%;
+    }
+    
+    .contact {
+        margin-top: 70px;
+        font-family: var(--font);
+        height: 250px;
+    }
 
-.jump {
-    color: var(--white);
-    text-decoration: none;
-    margin: 10px;
-    cursor: pointer;
-}
+    .contacts {
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+    }
+    
+    .github {
+        display: inline-block;
+        height: 100px;
+        width: 100px;
+        border-radius: 15px;
+        opacity: 70%;
 
-.jump:hover {
-    color: lavender;
-    font-size: 125%;
-}
+    }
+    
+    .github:hover {
+        opacity: 100%;
+    }
+    
+    .github:active {
+        opacity: 70%;
+    }
+    
+    .gmail {
+        display: inline-block;
+        height: 100px;
+        width: 100px;
+        border-radius: 15px;
+        opacity: 70%;
+    }
+    
+    .gmail:hover {
+        opacity: 100%;
+    }
+    
+    .gmail:active {
+        opacity: 70%;
+    }
+    
+    .insta {
+        display: inline-block;
+        height: 100px;
+        width: 100px;
+        border-radius: 15px;
+        opacity: 70%;
+    }
+    
+    .insta:hover {
+        opacity: 100%;
+    }
+    
+    .insta:active {
+        opacity: 70%;
+    }
+    
+    .aboutmeinfo {
+        width: 75%;
+        display: inline-block;
+        margin-right: 20px;
+        font-size: 150%;
+        font-family: var(--font);
+        margin-left: 15px;
+        color: var(--black);
+    }
+    
+    .cow {
+        float: right;
+        max-height: 200px;
+        margin: auto;
+        border-radius: 20px;
+    }
+    
+    .title {
+        font-size: 200%;
+        font-family: var(--font);
+        text-align: end;
+        padding-right: 15px;
+        width: 25%;
+        color: var(--black);
+        margin-top: 15px;
+        border-style: solid;
+        border-width: 0 0 4px 0;
+        border-color: var(--purple);
+        border-radius: 0 10px 10px 0;
+    }
+    
+    .img {
+        height: 300px;
+        border-radius: 30px;
+    }
 
-.jump:active {
-    color: var(--white);
-    font-size: 100%;
-}
-
-nav {
-    display: flex;
-    width: 100%;
-    margin-top: auto;
-    margin-right: 10px;
-    justify-content: end;
-    font-family: var(--font);
-}
-
-.hero {
-    display: flex;
-    height: 200px;
-    background-image: url(https://media.tacdn.com/media/attractions-content--1x-1/0b/dd/a8/ce.jpg);
-    background-position: center;
-    background-size: cover;    
-}
-
-.phrase {
-    font-size: 200%;
-    font-family: var(--font);
-    margin: auto;
-    font-weight: 600;
-    color: var(--white);
-}
-
-.aboutme {
-    display: flex;
-    flex-direction: row;
-    margin-top: 20px;
-    padding: 20px;
-    font-family: var(--font);
-    position: relative;
-}
-
-.mywork {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    height: auto;
-    margin-top: 70px;
-    margin-left: 20px;
-    position: relative;
-    justify-content: space-between;
-}
-/* not sure how to makes move down undernreath eachother when the screen gets smaller :(*/
-.fp1 {
-    flex: 1;
-    height: 400px;
-    max-width: 400px;
-    background-image: url(https://images.squarespace-cdn.com/content/v1/603fd29b6e08d91bcd89517d/1614795643086-ROL5JCHI0SH4D0S4XD6T/TFP+logo+-+black.png?format=1500w);
-    background-position: center;
-    background-size: cover;
-    border: none;
-    border-radius: 200px;
-    opacity: 75%;
-    color: var(--white);
-}
-
-.fp1:hover {
-    cursor: pointer;
-    opacity: 100%;
-}
-
-.fp1:active {
-    opacity: 70%;
-}
-
-.fp2 {
-    flex: 1;
-    max-height: 400px;
-    max-width: 400px;
-    flex-shrink: ;
-    background-image: url(https://img.freepik.com/free-vector/neon-style-coming-soon-background_1017-33735.jpg?w=740&t=st=1668961802~exp=1668962402~hmac=10e7cd2f99582ba3c5b11fead4b960f4681b94298c75983c64e71842a1ba114f);
-    background-position: center;
-    background-size: cover;
-    border: none;
-    border-radius: 50px;
-    opacity: 75%;
-    color: var(--white);
-}
-
-.fp2:hover {
-    cursor: pointer;
-    opacity: 100%;
-}
-
-.fp2:active {
-    opacity: 70%;
-}
-
-.fp3 {
-    flex: 1;
-    margin-right: 50px;
-    max-width: 400px;
-    max-height: 400px;
-    background-image: url(https://previews.123rf.com/images/captainvector/captainvector1703/captainvector170300144/73614406-upcoming-new-project-design.jpg);
-    background-position: center;
-    background-size: cover;
-    border: none;
-    border-radius: 50px;
-    opacity: 75%;
-    color: var(--white);
-}
-
-.fp3:hover {
-    cursor: pointer;
-    opacity: 100%;
-}
-
-.fp3:active {
-    opacity: 70%;
-}
-
-.contact {
-    display: flex;
-    flex-direction: row;
-    height: 200px;
-    margin-top: 70px;
-    padding: 20px;
-    font-family: var(--font);
-    position: relative;
-}
-
-.github {
-    flex: 1;
-    margin: auto;
-    height: 100px;
-    max-width: 100px;
-    background-image: url(https://aiexpress.io/wp-content/uploads/2022/01/TOP-10-GitHub-Repositories-for-Data-Science.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px;
-    opacity: 70%;
-}
-
-.github:hover, {
-    opacity: 100%;
-}
-
-.github:active, {
-    opacity: 70%;
-}
-
-.gmail {
-    flex: 1;
-    margin: auto;
-    height: 100px;
-    max-width: 100px;
-    background-image: url(https://m.media-amazon.com/images/I/31kLTnDHGeL.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px;
-    opacity: 70%;
-}
-
-.gmail:hover, {
-    opacity: 100%;
-}
-
-.gmail:active, {
-    opacity: 70%;
-}
-
-.insta {
-    flex: 1;
-    margin: auto;
-    height: 100px;
-    max-width: 100px;
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/150px-Instagram_logo_2022.svg.png);
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px;
-    opacity: 70%;
-}
-
-.insta:hover, {
-    opacity: 100%;
-}
-
-.insta:active, {
-    opacity: 70%;
-}
-
-.aboutmeinfo {
-    flex: 1;
-    margin-right: 20px;
-    font-size: 150%;
-    font-family: var(--font);
-    margin-left: 15px;
-    color: var(--black);
-}
-
-.cow {
-    float: left;
-    max-height: 200px;
-    margin: auto;
-    border-radius: 20px;
-}
-
-.title {
-    flex: 25%;
-    font-size: 200%;
-    font-family: var(--font);
-    text-align: end;
-    padding-right: 15px;
-    max-width: 250px;
-    color: var(--black);
-    margin-top: 15px;
-    border-style: solid;
-    border-width: 0 4px 0 0;
-    border-color: var(--purple);
-    border-radius: 0 10px 10px 0;
-}
-
-.img {
-    height: 300px;
-    border-radius: 30px;
-}
-
-footer {
-    height: 100px;
-}
-.fttext {
-    text-align: center;
-    padding-top: 20px;
-    font-family: var(--font);
-}
+    footer {
+        height: 100px;
+    }
+    .fttext {
+        text-align: center;
+        padding-top: 20px;
+        font-family: var(--font);
+    }
+    
+    footer {
+        height: 100px;
+    }
+    .fttext {
+        text-align: center;
+        padding-top: 20px;
+        font-family: var(--font);
+    }
