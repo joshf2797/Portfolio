@@ -22,6 +22,7 @@
     .name {
         width: 20%;
         padding-left: 15px;
+        margin: auto;
     }
     
     .jump {
@@ -49,7 +50,7 @@
         justify-content: end;
         font-family: var(--font);
     }
-    
+
     .hero {
         display: flex;
         height: 200px;
@@ -60,6 +61,7 @@
     
     .phrase {
         font-size: 200%;
+        text-align: center;
         font-family: var(--font);
         margin: auto;
         font-weight: 600;
@@ -162,6 +164,7 @@
         display: flex;
         justify-content: space-around;
         list-style-type: none;
+        padding: 0;
     }
     
     .github {
@@ -283,13 +286,21 @@
             width: 200px;
         }
         .jump {
-            font-size: 10px;
+            font-size: 20px;
         }
         .name {
-            font-size: 25px;
+            font-size: 35px;
         }
         .github, .gmail, .insta {
             height: 50px;
             width: 50px;
+        }
+        .navlist{
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+        }
+        .title {
+            width: 50%;
         }
     }
