@@ -83,6 +83,12 @@
         padding: 20px;
     }
 
+    .cow {
+        float: right;
+        max-height: 200px;
+        border-radius: 20px;
+    }
+
     .mywork {
         margin-top: 75px;
     }
@@ -236,17 +242,10 @@
         color: var(--black);
     }
     
-    .cow {
-        float: right;
-        max-height: 200px;
-        margin: auto;
-        border-radius: 20px;
-    }
-    
     .title {
         font-size: 200%;
         font-family: var(--font);
-        text-align: end;
+        text-align: center;
         padding-right: 15px;
         width: 25%;
         color: var(--black);
@@ -254,7 +253,7 @@
         border-style: solid;
         border-width: 0 0 4px 0;
         border-color: var(--purple);
-        border-radius: 0 10px 10px 0;
+        border-radius: 0 10px 10px 10px;
     }
     
     .img {
@@ -302,5 +301,6 @@
         }
         .title {
             width: 50%;
+            text-align: center;
         }
     }
