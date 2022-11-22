@@ -279,7 +279,17 @@
 
     @media screen and (max-width: 600px) {
         .fp1, .fp2, .fp3 {
-            height: 250px;
-            width: 250px;
+            height: 200px;
+            width: 200px;
+        }
+        .jump {
+            font-size: 10px;
+        }
+        .name {
+            font-size: 25px;
+        }
+        .github, .gmail, .insta {
+            height: 50px;
+            width: 50px;
         }
     }
