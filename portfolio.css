@@ -175,6 +175,16 @@
     
     .github:hover {
         opacity: 100%;
+        animation: rotation 10s infinite linear;
+    }
+    
+    @keyframes rotation {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(359deg);
+      }
     }
     
     .github:active {
@@ -265,4 +275,11 @@
         text-align: center;
         padding-top: 20px;
         font-family: var(--font);
+    }
+
+    @media screen and (max-width: 600px) {
+        .fp1, .fp2, .fp3 {
+            height: 250px;
+            width: 250px;
+        }
     }
