@@ -1,69 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="portfolio.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="portfolio.css" />
     <title>Portfolio</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1 class="name">Joshua Fenn</h1>
-        <img src="images/three arrow.png" alt="Three arrows">
-        <nav>
-                <a class="jump" href="#About-Me">About Me</a><br />
-                <a class="jump" href="#My-work">My Work</a><br />
-                <a class="jump" href="#Contact-me">Contact Me</a><br />         
-        </nav>
+      <h1 class="name">Joshua Fenn</h1>
+      <img src="images/three arrow.png" alt="Three arrows" />
+      <nav>
+        <a class="jump" href="#About-Me">About Me</a><br />
+        <a class="jump" href="#My-work">My Work</a><br />
+        <a class="jump" href="#Contact-me">Contact Me</a><br />
+      </nav>
     </header>
     <div class="hero">
-        <p class="phrase">So You're Looking For A Full Stack Developer</p>
+      <p class="phrase">So You're Looking For A Full Stack Developer</p>
     </div>
     <main>
-        <section class="content" id="About-Me">
-            <article class="aboutme">
-                <h1 class="title">About Me</h1>
-                <p class="aboutmeinfo">Pleased you could make it! The names Joshua. I was born and raised in the great state of Arizona, so I'm a master of the heat. I'm currently residing in Phoenix. I am currently a parts manager at an autobody shop. Hoping to get into the tech industry after my web development bootcamp at UofA. I have two high energy boxer mixes, so I walk them often, take them on hikes when I can. A few hobbies I enjoy are hiking, archery, binge watching shows, go-karting, working on my car. I'm also a fan of baby cows, hence why you see a baby cow next to this. I look forward to learning and experiencing new things in the computer world and hope to bring my personality and smarts to a company that will help me grow. </p>
-                <img class="cow" src="images/Screenshot_20221116_135924.jpg" alt="baby cow">
-            </article>
+      <section class="content" id="About-Me">
+        <article class="aboutme">
+          <h1 class="title">About Me</h1>
+          <p class="aboutmeinfo">
+            Pleased you could make it! The names Joshua. I was born and raised
+            in the great state of Arizona, so I'm a master heat.
+          </p>
+          <img
+            class="cow"
+            src="images/Screenshot_20221116_135924.jpg"
+            alt="baby cow"
+          />
+        </article>
 
-            <article class="mywork" id="My-work">
-                <h1 class="title">My Work</h1>
-                <div>
-                    <a href="">
-                        <img class="fp2" src="images/neoncomingsoon.webp" alt="Neon light style coming soon">
-                    </a>
-                    <a href="">
-                        <img class="fp3" src="images/newproject.webp" alt="project materials">
-                    </a>
-                    <a href="">
-                        <img class="fp1" src="images/TFP+logo.png" alt="Future Project">
-                    </a>
-                </div>
-                
-            </article>
+        <article class="mywork" id="My-work">
+          <h1 class="title">My Work</h1>
+          <div>
+            <a
+              class="fp2"
+              href="https://joshf2797.github.io/weatherDashboard/"
+              target="_blank"
+            >
+              <img src="images/weatherapp.png" alt="Screenshot of Weatherapp" />
+            </a>
+            <a href="">
+              <img
+                class="fp3"
+                src="images/newproject.webp"
+                alt="project materials"
+              />
+            </a>
+            <a href="">
+              <img class="fp1" src="images/TFP+logo.png" alt="Future Project" />
+            </a>
+          </div>
+        </article>
 
-            <article class="contact" id="Contact-me">
-                <h1 class="title">Contact Me</h1>
-                <ul class="contacts">
-                    <a href="https://github.com/joshf2797" target="_blank">
-                        <img class="github" src="images/giithub.png" alt="github logo">
-                    </a>
-                    <a href = "mailto: joshf2797@gmail.com">
-                        <img class="gmail" src="images/gmailimg.jpeg" alt="Gmail logo">
-                    </a>
-                    <a href="https://www.instagram.com/daba_daba_doo/" target="_blank">
-                        <img class="insta" src="images/instaimg.svg" alt="Instagram logo">
-                    </a>
-                </ul>              
-            </article>
-        </section>
+        <article class="contact" id="Contact-me">
+          <h1 class="title">Contact Me</h1>
+          <ul class="contacts">
+            <a href="https://github.com/joshf2797" target="_blank">
+              <img class="github" src="images/giithub.png" alt="github logo" />
+            </a>
+            <a href="mailto: joshf2797@gmail.com">
+              <img class="gmail" src="images/gmailimg.jpeg" alt="Gmail logo" />
+            </a>
+            <a href="https://www.instagram.com/daba_daba_doo/" target="_blank">
+              <img
+                class="insta"
+                src="images/instaimg.svg"
+                alt="Instagram logo"
+              />
+            </a>
+          </ul>
+        </article>
+      </section>
     </main>
     <footer>
-        <p class="fttext">Built by <strong>Joshua Fenn</strong> using HTML, CSS, and a touch of JavaScript</p>
+      <p class="fttext">
+        Built by <strong>Joshua Fenn</strong> using HTML, CSS, and a touch of
+        JavaScript
+      </p>
     </footer>
-    
+
     <script src="portfolio.js"></script>
-</body>
+  </body>
 </html>

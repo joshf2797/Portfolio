@@ -1,306 +1,308 @@
 :root {
-    --purple: rgba(100, 53, 145, 0.679);
-    --black: rgba(0, 0, 0);
-    --white: rgb(255, 255, 255);
-    --font: Arial, Helvetica, sans-serif;
-    }
-    
-    header {
-        display: flex;
-        flex-direction: row;
-        height: 100px;
-        margin: 0;
-        background-color: var(--purple) ;
-        color: var(--white);
-        font-family: var(--font);
-    }
-    
-    body {
-        margin: 0;
-    }
-    
-    .name {
-        width: 20%;
-        padding-left: 15px;
-        margin: auto;
-    }
-    
-    .jump {
-        color: var(--white);
-        text-decoration: none;
-        margin: 10px;
-        cursor: pointer;
-    }
-    
-    .jump:hover {
-        color: lavender;
-        font-size: 125%;
-    }
-    
-    .jump:active {
-        color: var(--white);
-        font-size: 100%;
-    }
-    
-    nav {
-        display: flex;
-        width: 100%;
-        margin-top: auto;
-        margin-right: 10px;
-        justify-content: end;
-        font-family: var(--font);
-    }
+  --purple: rgba(100, 53, 145, 0.679);
+  --black: rgba(0, 0, 0);
+  --white: rgb(255, 255, 255);
+  --font: Arial, Helvetica, sans-serif;
+}
 
-    .hero {
-        display: flex;
-        height: 200px;
-        background-image: url(https://media.tacdn.com/media/attractions-content--1x-1/0b/dd/a8/ce.jpg);
-        background-position: center;
-        background-size: cover;    
-    }
-    
-    .phrase {
-        font-size: 200%;
-        text-align: center;
-        font-family: var(--font);
-        margin: auto;
-        font-weight: 600;
-        color: var(--white);
-    }
-    
-    .content {
-        display: flex;
-        flex-direction: column;
-        width: 85%;
-        margin: auto;
-        margin-top: 75px;
-        font-family: var(--font);
-    }
+header {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  margin: 0;
+  background-color: var(--purple);
+  color: var(--white);
+  font-family: var(--font);
+}
 
-    .mywork, .aboutme, .contact{
-        background-color: rgba(128, 128, 128, 0.405);
-        border-radius: 20px;
-        padding: 20px;
-    }
+body {
+  margin: 0;
+}
 
-    .cow {
-        float: right;
-        max-height: 200px;
-        border-radius: 20px;
-    }
+.name {
+  width: 20%;
+  padding-left: 15px;
+  margin: auto;
+}
 
-    .mywork {
-        margin-top: 75px;
-    }
+.jump {
+  color: var(--white);
+  text-decoration: none;
+  margin: 10px;
+  cursor: pointer;
+}
 
-    .fp1 {
-        height: 400px;
-        width: 400px;
-        margin: 30px;
-        border: none;
-        border-radius: 200px;
-        opacity: 75%;
-        color: var(--white);
-    }
-    
-    .fp1:hover {
-        cursor: pointer;
-        opacity: 100%;
-        animation: rotation 10s infinite linear;
-    }
-    
-    @keyframes rotation {
-      from {
-        transform: rotate(0deg);
-      }
-      to {
-        transform: rotate(359deg);
-      }
-    }
-    
-    .fp1:active {
-        opacity: 70%;
-    }
-    
-    .fp2 {
-        height: 400px;
-        width: 400px;
-        margin: 30px;
-        border: none;
-        border-radius: 50px;
-        opacity: 75%;
-        color: var(--white);
-    }
-    
-    .fp2:hover {
-        cursor: pointer;
-        opacity: 100%;
-    }
-    
-    .fp2:active {
-        opacity: 70%;
-    }
-    
-    .fp3 {
-        margin: 30px;
-        width: 400px;
-        height: 400px;
-        border: none;
-        border-radius: 50px;
-        opacity: 75%;
-        color: var(--white);
-    }
-    
-    .fp3:hover {
-        cursor: pointer;
-        opacity: 100%;
-    }
-    
-    .fp3:active {
-        opacity: 70%;
-    }
-    
-    .contact {
-        margin-top: 70px;
-        font-family: var(--font);
-        height: 250px;
-    }
+.jump:hover {
+  color: lavender;
+  font-size: 125%;
+}
 
-    .contacts {
-        display: flex;
-        justify-content: space-around;
-        list-style-type: none;
-        padding: 0;
-    }
-    
-    .github {
-        display: inline-block;
-        height: 100px;
-        width: 100px;
-        border-radius: 15px;
-        opacity: 70%;
+.jump:active {
+  color: var(--white);
+  font-size: 100%;
+}
 
-    }
-    
-    .github:hover {
-        opacity: 100%;
-        animation: rotation 10s infinite linear;
-    }
-    
-    @keyframes rotation {
-      from {
-        transform: rotate(0deg);
-      }
-      to {
-        transform: rotate(359deg);
-      }
-    }
-    
-    .github:active {
-        opacity: 70%;
-    }
-    
-    .gmail {
-        display: inline-block;
-        height: 100px;
-        width: 100px;
-        border-radius: 15px;
-        opacity: 70%;
-    }
-    
-    .gmail:hover {
-        opacity: 100%;
-    }
-    
-    .gmail:active {
-        opacity: 70%;
-    }
-    
-    .insta {
-        display: inline-block;
-        height: 100px;
-        width: 100px;
-        border-radius: 15px;
-        opacity: 70%;
-    }
-    
-    .insta:hover {
-        opacity: 100%;
-    }
-    
-    .insta:active {
-        opacity: 70%;
-    }
-    
-    .aboutmeinfo {
-        width: 75%;
-        display: inline-block;
-        margin-right: 20px;
-        font-size: 150%;
-        font-family: var(--font);
-        margin-left: 15px;
-        color: var(--black);
-    }
-    
-    .title {
-        font-size: 200%;
-        font-family: var(--font);
-        text-align: center;
-        padding-right: 15px;
-        width: 25%;
-        color: var(--black);
-        margin-top: 15px;
-        border-style: solid;
-        border-width: 0 0 4px 0;
-        border-color: var(--purple);
-        border-radius: 0 10px 10px 10px;
-    }
-    
-    .img {
-        height: 300px;
-        border-radius: 30px;
-    }
+nav {
+  display: flex;
+  width: 100%;
+  margin-top: auto;
+  margin-right: 10px;
+  justify-content: end;
+  font-family: var(--font);
+}
 
-    footer {
-        height: 100px;
-    }
-    .fttext {
-        text-align: center;
-        padding-top: 20px;
-        font-family: var(--font);
-    }
-    
-    footer {
-        height: 100px;
-    }
-    .fttext {
-        text-align: center;
-        padding-top: 20px;
-        font-family: var(--font);
-    }
+.hero {
+  display: flex;
+  height: 200px;
+  background-image: url(https://media.tacdn.com/media/attractions-content--1x-1/0b/dd/a8/ce.jpg);
+  background-position: center;
+  background-size: cover;
+}
 
-    @media screen and (max-width: 600px) {
-        .fp1, .fp2, .fp3 {
-            height: 200px;
-            width: 200px;
-        }
-        .jump {
-            font-size: 20px;
-        }
-        .name {
-            font-size: 35px;
-        }
-        .github, .gmail, .insta {
-            height: 50px;
-            width: 50px;
-        }
-        .navlist{
-            display: flex;
-            flex-direction: column;
-            margin: 0;
-        }
-        .title {
-            width: 50%;
-            text-align: center;
-        }
-    }
+.phrase {
+  font-size: 200%;
+  text-align: center;
+  font-family: var(--font);
+  margin: auto;
+  font-weight: 600;
+  color: var(--white);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin: auto;
+  margin-top: 75px;
+  font-family: var(--font);
+}
+
+.mywork,
+.aboutme,
+.contact {
+  background-color: rgba(128, 128, 128, 0.405);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.cow {
+  float: right;
+  max-height: 200px;
+  border-radius: 20px;
+}
+
+.mywork {
+  margin-top: 75px;
+}
+
+.fp1 {
+  height: 400px;
+  width: 400px;
+  margin: 30px;
+  border: none;
+  border-radius: 200px;
+  opacity: 75%;
+  color: var(--white);
+}
+
+.fp1:hover {
+  cursor: pointer;
+  opacity: 100%;
+  animation: rotation 10s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.fp1:active {
+  opacity: 70%;
+}
+
+.fp2 {
+  position: relative;
+  width: 100%;
+  opacity: 75%;
+  color: var(--white);
+}
+
+.fp2:hover {
+  cursor: pointer;
+  opacity: 100%;
+}
+
+.fp2:active {
+  opacity: 70%;
+}
+
+.fp3 {
+  margin: 30px;
+  width: 400px;
+  height: 400px;
+  border: none;
+  border-radius: 50px;
+  opacity: 75%;
+  color: var(--white);
+}
+
+.fp3:hover {
+  cursor: pointer;
+  opacity: 100%;
+}
+
+.fp3:active {
+  opacity: 70%;
+}
+
+.contact {
+  margin-top: 70px;
+  font-family: var(--font);
+  height: 250px;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 0;
+}
+
+.github {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  border-radius: 15px;
+  opacity: 70%;
+}
+
+.github:hover {
+  opacity: 100%;
+  animation: rotation 40s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.github:active {
+  opacity: 70%;
+}
+
+.gmail {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  border-radius: 15px;
+  opacity: 70%;
+}
+
+.gmail:hover {
+  opacity: 100%;
+}
+
+.gmail:active {
+  opacity: 70%;
+}
+
+.insta {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  border-radius: 15px;
+  opacity: 70%;
+}
+
+.insta:hover {
+  opacity: 100%;
+}
+
+.insta:active {
+  opacity: 70%;
+}
+
+.aboutmeinfo {
+  width: 75%;
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 150%;
+  font-family: var(--font);
+  margin-left: 15px;
+  color: var(--black);
+}
+
+.title {
+  font-size: 200%;
+  font-family: var(--font);
+  text-align: center;
+  padding-right: 15px;
+  width: 25%;
+  color: var(--black);
+  margin-top: 15px;
+  border-style: solid;
+  border-width: 0 0 4px 0;
+  border-color: var(--purple);
+  border-radius: 0 10px 10px 10px;
+}
+
+.img {
+  height: 300px;
+  border-radius: 30px;
+}
+
+footer {
+  height: 100px;
+}
+.fttext {
+  text-align: center;
+  padding-top: 20px;
+  font-family: var(--font);
+}
+
+footer {
+  height: 100px;
+}
+.fttext {
+  text-align: center;
+  padding-top: 20px;
+  font-family: var(--font);
+}
+
+@media screen and (max-width: 600px) {
+  .fp1,
+  .fp2,
+  .fp3 {
+    height: 200px;
+    width: 200px;
+  }
+  .jump {
+    font-size: 20px;
+  }
+  .name {
+    font-size: 35px;
+  }
+  .github,
+  .gmail,
+  .insta {
+    height: 50px;
+    width: 50px;
+  }
+  .navlist {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  .title {
+    width: 50%;
+    text-align: center;
+  }
+}
